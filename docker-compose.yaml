@@ -6,7 +6,7 @@ services:
     restart: always
     env_file: ./apps/.env
     volumes:
-      -data_simpleapps:/apps
+      - data_simpleapps:/apps
 volumes: 
   data_simpleapps:
     driver: local
